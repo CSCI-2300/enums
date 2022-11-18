@@ -3,6 +3,9 @@ public class Driver
    enum Month{
      JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC;
      int days;
+     Month(){
+        System.out.println("Month constructor is called");
+     }
      public void setDays(int numDays){days = numDays;}
    }
 
